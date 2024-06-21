@@ -1,0 +1,18 @@
+
+
+.welcome{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+flex: 1;
+font-family: sans-serif;
+color: rgb(0, 0, 0.54);
+border-radius: 20px;
+border: 1px solid #63d7b0;
+}
+.welcome p{
+ font-size: 20px;
+ opacity: 0.7;
+}

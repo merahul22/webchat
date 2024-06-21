@@ -1,0 +1,19 @@
+.creategroup{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   align-self: center;
+   flex: 1;
+    padding: 20px 10px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px;
+}
+.creategroup input{
+    border: none;
+    outline :none;
+    color: #515155;
+    font-size: 30px;
+    padding: 10px 5px;
+
+}

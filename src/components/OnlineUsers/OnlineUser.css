@@ -1,0 +1,92 @@
+.onlineuser{
+    display: flex;
+    flex-direction: column; 
+    flex: 1;
+}
+.onlineuser-header{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 10px 5px;
+    background-color: white;
+    margin: 10px;
+    
+}
+.onlineuser-header img{
+    width: 40px;
+    height: 40px;
+}
+.onlineuser-header p{
+    font-size: larger;
+    color: #515151;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.onlineuser-search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    gap: 20px;
+}
+.onlineuser-search input{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #515151;
+}
+.onlineuser-list{
+    flex: 1;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.onlineuser-list::-webkit-scrollbar{
+    display: none;
+}
+
+.onlineuser-list-item{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 20px;
+    background-color: white;
+    transition-duration: 0.5s;
+ gap: 20px;
+ background-color: rgb(233, 223, 223);
+ margin-bottom: 20px;
+}
+.onlineuser-name{
+    grid-area: 1/2/2/4;
+    font-weight: bold;
+    color: rgb(0, 0, 0.52);
+}
+.onlineuser-icon{
+    grid-area: 1/1/3/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9d9d9;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    height: 32px;
+    width: 32px;
+    padding:2px;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
+}
+.onlineuser-list-item:hover{
+transform: scale(1.026);
+box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+

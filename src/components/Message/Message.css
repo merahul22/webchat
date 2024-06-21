@@ -1,0 +1,42 @@
+.messageother-container{
+    display: flex;
+    background-color: white;
+    margin: 50px;
+}
+
+.conversation-container{
+display: flex;
+gap: 20px;
+}
+
+.other-text-content{
+    background-color: rgb(176, 176, 233);
+    padding: 20px;
+    border-radius: 4px 10px;
+    display: flex;
+    gap: px;
+    flex-direction: column;
+}
+
+.other-timestamp{
+    text-align:end;
+    font-size: small;
+    opacity: 0.7;
+}
+.messageself-container{
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+.messagebox{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(181, 234, 181);
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+.self-timestamp{
+text-align: end;
+opacity: 0.7;
+}
